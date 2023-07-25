@@ -1,5 +1,5 @@
 <details>
-<summary>Example</summary>
-<ul><li>This dropdown contains</li>
-<li>a list!</li></ul>
+<summary>Social Media</summary>
+<ul><li>LinkedIn:</li>
+<li>LeetCode: </li></ul>
 </details>
