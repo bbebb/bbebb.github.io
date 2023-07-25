@@ -54,4 +54,11 @@ Further analysis, however, is conducted on the everyday players from 2022. With 
 It is evident that both power hitters and contact hitters have similar correlations, but power hitters, as expected, have a higher slugging percentage, whereas contact hitters have a slightly higher on-base percentage.
 
 ### Team Defensive Trends
+Following the same idea about the impact of defensive shifting, it is important to investigate the effects of shifting for a team's overall defensive performance. The notion behind the shift is that the more a team plays in a position that a player hits to most often, the more runs that will be saved defensively. The graph below illustrates the relationship amongst the 30 MLB teams in the 2022 season and the amount of times they shifted and the total number of defensive runs saved.
+
+![Screen Shot 2023-07-25 at 1 18 25 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/f60ff179-7650-450f-b839-fd23214d3abe)
+
+
+In order to save the most defensive runs possible, a team either shifted a minimal or maximal amount. Further trends and analyses can be found in the accompanying repository for this project.  
+
 
