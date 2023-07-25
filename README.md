@@ -14,14 +14,9 @@
 ### Overview
 This project works to recreate and improve the accuracy of a stock market trend predictor proposed in a [dissertation](https://etd.auburn.edu/bitstream/handle/10415/5652/Application%20of%20machine%20learning%20techniques%20for%20stock%20market%20prediction.pdf?sequence=2&isAllowed=y) proposed by Bin Weng of Auburn University. 
 The program serves to predict future movement of the stock market using historical data using various fitted formulas:
-	| Target | Formula |
-| ----------- | ----------- |
-| Target 1 | Open(i + 1) - Close(i) |
-| Target 2 | Open(i + 1) - Open(i) |
-| Target 3 | Close(i + 1) - Close(i) |
-| Target 4 | Close(i + 1) - Open(i) |
-| Target 5 | Trade Volume(i + 1) - Trade Volume(i) |
-
+  
+<img width="394" alt="Screen Shot 2023-07-25 at 12 26 20 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/a697d756-4bd9-45e8-8f15-a0bfcb551934">
+  
 ### Recreating Support Vector Models
 The first half of this project works to recreate Weng's support vector models using historical Apple, Inc. (AAPL) stock data [(csv)](https://github.com/bbebb/stock-market-trend-predictor/blob/main/AAPL.csv) obtained from Yahoo.com. Upon splitting the data into training and testing files, the training data was used to predict the responses for the formula when the model was given the testing data.  
   
