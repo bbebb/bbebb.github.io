@@ -6,6 +6,6 @@
 
 <details>
 <summary>Social Media</summary>
-<ul><li> [LinkedIn] (www.linkedin.com/in/brendanbebb) </li>
-<li> [LeetCode] (https://leetcode.com/brendanbebb/) </li></ul>
+<ul><li> [LinkedIn](www.linkedin.com/in/brendanbebb) </li>
+<li> [LeetCode](https://leetcode.com/brendanbebb/) </li></ul>
 </details>
