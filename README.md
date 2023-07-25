@@ -1,12 +1,18 @@
 # Brendan Bebb
+--------------
 ### University of Michigan, B.S. Data Science
 #### Baseball Analyst, Michigan Sports Analytics Society
 #### Treasurer, Captain, Michigan Club Baseball
+---------------
+Hello! My name is Brendan Bebb, and I am seeking Data Analyst positions with heightened interest in Sports Analytics having graduated from the University of Michigan. This portfolio works to highlight some of my best projects over the past few years. I am proficient at coding in R, Python, SQL, and C++, with exposure to Java. I am looking for positions that can accentuate my strong communication skills, ability to present solutions in an easily digestable manner, and passion for finding real-world solutions behind the data provided to me. 
 
-[LinkedIn](www.linkedin.com/in/brendanbebb)
+##### Contact Information:
+Phone: (248) 231-6223  
+Email: bbebb@umich.edu  
+[LinkedIn](www.linkedin.com/in/brendanbebb)  
+[LeetCode](https://leetcode.com/brendanbebb/)  
 
-
-[LeetCode](https://leetcode.com/brendanbebb/)
+---------------
 
 # Projects
 
@@ -61,4 +67,7 @@ Following the same idea about the impact of defensive shifting, it is important 
 
 In order to save the most defensive runs possible, a team either shifted a minimal or maximal amount. Further trends and analyses can be found in the accompanying repository for this project.  
 
+## Project 3: Identifying Optimal Regions for Economic Growth in the United States
 
+## Project 4: The Ultimate Piazza-Lecture Mashup: Your One-Stop Study Shop
+![Screen Shot 2023-07-25 at 1 41 39 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/cf5fb35c-4d70-4579-8e10-9756606b07b8)
