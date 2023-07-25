@@ -40,4 +40,18 @@ As illustrated in the graph above, the lowest misclassification rate obtained wa
 
 ## [Project 2: Major League Baseball Player Analysis](https://github.com/bbebb/msas-baseball-trends)
 
+### Overview
+This project was an independent research project completed and presented at the 2022 Michigan Sports Analytics Symposium. As a Baseball Analyst, I worked to propose and effectively answer several questions involving various trends across Major League Baseball, ranging from individual performance metrics to team-wide analyses.
+
+### Individual Offensive Trends
+Popularized by *Moneyball*, on-base percentage (OBP) became a more relevant metric for targeting players than slugging percentage (SLG) following the publication of the book. An alternative belief is that they should have direct correlation, and the more desired players have a high OBP and high SLG. As expected, there is a postivie correlation between OBP and SLG.  
+  
+Further analysis, however, is conducted on the everyday players from 2022. With popularity growing in 2022 for defensive shifting, run scoring came at an all-time premium. To combat this, players received better contracts if they hit for more power. Below, the graphs illustrate power hitters versus contact hitters and their respective relationships between OBP and SLG.
+
+![Screen Shot 2023-07-25 at 12 53 34 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/4d1e3e3a-5b2d-42f8-a552-2f195582931f) ![Screen Shot 2023-07-25 at 12 54 40 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/e9969f60-7049-4871-95a6-d021676d21d1)
+
+  
+It is evident that both power hitters and contact hitters have similar correlations, but power hitters, as expected, have a higher slugging percentage, whereas contact hitters have a slightly higher on-base percentage.
+
+### Team Defensive Trends
 
