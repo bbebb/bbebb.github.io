@@ -100,11 +100,13 @@ JeffreysInterval_lower = function(n, k, phat) {
 ```
 
 ### Results  
-The proportion of upmovers obtained with the Jeffreys' Interval for the four major regions of the United States were as follows:
-<img width="550" alt="Screen Shot 2023-07-26 at 6 40 58 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/1e1711dc-3125-43df-9068-49b98e978f97">
+The proportion of upmovers obtained with the Jeffreys' Interval for the four major regions of the United States were as follows:  
   
-The proportion of upmovers for the American nations were as follows:
-<img width="552" alt="Screen Shot 2023-07-26 at 6 44 25 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/ea8f7eeb-8aa4-4fd5-8f1a-39a334861cc2">
+<img width="371" alt="Screen Shot 2023-07-26 at 7 49 28 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/67be893d-2748-49d2-a85e-478eaf4f0ba0">  
+  
+The proportion of upmovers for the American nations were as follows:  
+
+<img width="423" alt="Screen Shot 2023-07-26 at 7 49 37 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/f6d06a2d-46e1-4f17-9805-9fec8616b478">
   
 As deduced from the tables, **the optimal region to live in for economic growth is the west region**, and **the optimal American nation to live in for economic growth is the El Norte Region**. However, the only issue with these results is that there is not a commuting zone that fits both of these criteria. The other bit of analysis worth mentioning is that it appears that grouping the United States by region is the most beneficial way to estimate the population proportion of upmover opportunities. 
 
