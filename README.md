@@ -73,8 +73,40 @@ In order to save the most defensive runs possible, a team either shifted a minim
 Conducted in January of 2023, this academic research project cleans, manipulates, and evaluates the best region and nation to live in across the United States. One of the largest struggles individuals face in life is succeeding financially. In this project, I analyze the data of individuals from 40 different commuting zones across the nation to determine which region and [American nation](https://www.washingtonpost.com/blogs/govbeat/wp/2013/11/08/which-of-the-11-american-nations-do-you-live-in/) provides the best opportunity for one to move from the lowest economic quintile in their twenties to the highest economic quintile in their thirties.  
 
 ### Evaluating and Validating the Data
-To ensure accurate results from the data, the 40 commuting zones are assigned their respective region and American naiton and grouped together. When grouped together by these criteria, one can see that the population sizes of the regions and nations are comparable, meaning that there is equal representation from each group, and all the proportions obtained are comparable.
+To ensure accurate results from the data, the 40 commuting zones are assigned their respective region and American naiton and grouped together. When grouped together by these criteria, one can see that the population sizes of the regions and nations are comparable, meaning that there is about an equal amount of individuals surveyed from each region, making these comparisons validated. 
 
+### Utilizing the Jeffreys' Interval
+After breaking up the data into the respective regions and nations, the Jeffreys' Interval (a variation of the common confidence interval) is calculated for each region/naiton to determine what proportion of the population moved from the lowest economic quintile to the highest economic quintile over the course of ten years, earning these individuals the title of "upmovers." The lower bound for the Jeffreys' Interval was calculated with the following formula, and the upper boundary was calculated in a similar manner.  
+
+```{r}
+JeffreysInterval_lower = function(n, k, phat) {
+  x = phat * n
+  alpha = (1 - k)/ 2
+  kappa = qnorm(1 - alpha)
+  w_t1 = ((kappa * sqrt(4 *  phat * (1 - phat)) / n) + ((kappa^2 - 3) / (6 * n^2))) / (4 * phat * (1 - phat))
+  w_t2 = ((0.5 - phat) * (phat * (1-phat) * (kappa^2 + 2) - (1/n))) / (6 * n * (phat * (1-phat))^2)
+  w = w_t1 + w_t2
+  if (phat == 0) {
+    lowerbound = 0
+  }
+  else if (phat == 1) {
+    lowerbound = (x + 0.5) / (n + 1)
+  }
+  else {
+    lowerbound = (x + 0.5) / (n + 1 +(n - x + 0.5) * (exp(2*w) - 1))
+  }
+  return(lowerbound)
+}
+```
+
+### Results  
+The proportion of upmovers obtained with the Jeffreys' Interval for the four major regions of the United States were as follows:
+<img width="550" alt="Screen Shot 2023-07-26 at 6 40 58 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/1e1711dc-3125-43df-9068-49b98e978f97">
+  
+The proportion of upmovers for the American nations were as follows:
+<img width="552" alt="Screen Shot 2023-07-26 at 6 44 25 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/ea8f7eeb-8aa4-4fd5-8f1a-39a334861cc2">
+  
+As deduced from the tables, **the optimal region to live in for economic growth is the west region**, and **the optimal American nation to live in for economic growth is the El Norte Region**. However, the only issue with these results is that there is not a commuting zone that fits both of these criteria. The other bit of analysis worth mentioning is that it appears that grouping the United States by region is the most beneficial way to estimate the population proportion of upmover opportunities. 
 
 
 ## Project 4: The Ultimate Piazza-Lecture Mashup: Your One-Stop Study Shop
