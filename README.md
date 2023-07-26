@@ -65,9 +65,17 @@ Following the same idea about the impact of defensive shifting, it is important 
 ![Screen Shot 2023-07-25 at 1 18 25 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/f60ff179-7650-450f-b839-fd23214d3abe)
 
 
-In order to save the most defensive runs possible, a team either shifted a minimal or maximal amount. Further trends and analyses can be found in the accompanying repository for this project.  
+In order to save the most defensive runs possible, a team either shifted a minimal or maximal amount. Further trends and analyses, such as a breakdown of the best offensive team in the MLB and positional fielding evaluations, can be found in the accompanying repository for this project.  
 
-## Project 3: Identifying Optimal Regions for Economic Growth in the United States
+## [Project 3: Identifying Optimal Regions for Economic Growth in the United States](https://github.com/bbebb/msa-research)
+
+### Overview
+Conducted in January of 2023, this academic research project cleans, manipulates, and evaluates the best region and nation to live in across the United States. One of the largest struggles individuals face in life is succeeding financially. In this project, I analyze the data of individuals from 40 different commuting zones across the nation to determine which region and [American nation](https://www.washingtonpost.com/blogs/govbeat/wp/2013/11/08/which-of-the-11-american-nations-do-you-live-in/) provides the best opportunity for one to move from the lowest economic quintile in their twenties to the highest economic quintile in their thirties.  
+
+### Evaluating and Validating the Data
+To ensure accurate results from the data, the 40 commuting zones are assigned their respective region and American naiton and grouped together. When grouped together by these criteria, one can see that the population sizes of the regions and nations are comparable, meaning that there is equal representation from each group, and all the proportions obtained are comparable.
+
+
 
 ## Project 4: The Ultimate Piazza-Lecture Mashup: Your One-Stop Study Shop
 ![Screen Shot 2023-07-25 at 1 41 39 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/cf5fb35c-4d70-4579-8e10-9756606b07b8)
