@@ -111,5 +111,31 @@ The proportion of upmovers for the American nations were as follows:
 As deduced from the tables, **the optimal region to live in for economic growth is the west region**, and **the optimal American nation to live in for economic growth is the El Norte Region**. However, the only issue with these results is that there is not a commuting zone that fits both of these criteria. The other bit of analysis worth mentioning is that it appears that grouping the United States by region is the most beneficial way to estimate the population proportion of upmover opportunities. 
 
 
-## Project 4: The Ultimate Piazza-Lecture Mashup: Your One-Stop Study Shop
-![Screen Shot 2023-07-25 at 1 41 39 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/cf5fb35c-4d70-4579-8e10-9756606b07b8)
+## [Project 4: The Ultimate Piazza-Lecture Mashup: Your One-Stop Study Shop](https://github.com/JustinLocke/eecs486-finalProject)
+
+### Overview
+As a college student, the amount of material presented to review come exam time can be strenuous and require an ample amount of time to cover every possible source: lecture slides, discussion board threads, supplementary slides, lecture recording transcripts, and much more. During my Information Retrieval and Web Search course, a few of my classmates and I worked to implement a python program that scrapes the course website of all relevant course materials, tokenizes the text, and through both a custom Vector Space Model and generic Word2Vec VSM, evaluate the texts. Once the tokenization and evaluation is completed, the program returns the most relevant lecture slides, discussion board threads, and supplementary materials files that most closely match a user input query. Below is a map outlining the implementation route of this program. 
+  
+![Screen Shot 2023-07-26 at 8 30 06 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/3e87f387-208f-411e-aae8-eb638c5f5b1d)
+
+
+### Methodology
+1. Gather all course content with custom web scraper. *Note: in order to have this program run correctly, the user must have a valid login for the University of Michigan Canvas page.*
+2. Create a Vector Space Model to weight and tokenize words from each dataset.
+3. Weight the vectors using the tf-idf and word2vec algorithms.
+4. Input a query of varying styles: administrative, conceptual, informative, etc.
+5. Use cosine similarity scores to find the most relevant documents for the given query.
+6. Evaluate the precision and recall scores for both weighting schemes used in the Vector Space Models.
+
+
+### Model Analysis
+The purpose of creating two Vector Space Models for this project was to see how beneficial the weighting scheme provided in the word2vec package in python is. In addition, the tf-idf weighting scheme specifically utilizes the ratio of thefrequency of a term in a document to the overall document length.  
+
+![Screen Shot 2023-07-26 at 8 33 22 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/0a74b52f-5976-4b4b-967e-ce42f4292644)  
+
+Above is a graphical representation of the cosine similarity scores obtained from the input query "calculate tf-idf." **Across all queries, the tf-idf model produced better precision and recall scores.** The conclusion reached about this is that the tf-idf model focuses more on the number of times a term appears in a document, whereas the word2vec model focuses on the distance between words in a sentence. In addition, queries that involve more conceptual wording seemed to produce better results for relevant documents. 
+
+
+    
+
+
