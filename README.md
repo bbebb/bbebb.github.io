@@ -42,7 +42,7 @@ This formula combines the five targets, with one being the response, and the oth
 
 <img alt="Screen Shot 2023-07-25 at 12 11 59 PM" src="https://github.com/bbebb/bbebb.github.io/assets/73957927/a0302349-fc0c-4a14-ac0d-f92f53a9d318" width="350" height="200"/>
   
-As illustrated in the graph above, the lowest misclassification rate obtained was 11.87% for Target 4, meaning **the most accurate model was 88.13% accurate.** While Adaptive Boosting trees improved stock market trend prediction, the difference is near negligible. 
+As illustrated in the graph above, the lowest misclassification rate obtained was 11.87% with about 800 trees for Target 4, meaning **the most accurate model was 88.13% accurate.** While Adaptive Boosting trees improved stock market trend prediction, the difference is near negligible. 
 
 ## [Project 2: Major League Baseball Player Analysis](https://github.com/bbebb/msas-baseball-trends)
 
