@@ -65,7 +65,7 @@ Following the same idea about the impact of defensive shifting, it is important 
 ![Screen Shot 2023-07-25 at 1 18 25 PM](https://github.com/bbebb/bbebb.github.io/assets/73957927/f60ff179-7650-450f-b839-fd23214d3abe)
 
 
-In order to save the most defensive runs possible, a team either shifted a minimal or maximal amount. Further trends and analyses, such as a breakdown of the best offensive team in the MLB and positional fielding evaluations, can be found in the accompanying repository for this project.  
+Teams that shifted an average amount over the course of the season had a lower Defensive Runs Saved statistic than teams that shifted a minimal or maximial amount. This illustrates that the fielders were bettrer positioned to make plays, meaning that there are fewer opportunities for runs to score. Ultimately, the shift proved to decrease runs from what would be hits otherwise. Further trends and analyses, such as a breakdown of the best offensive team in the MLB and positional fielding evaluations, can be found in the accompanying repository for this project.  
 
 ## [Project 3: Identifying Optimal Regions for Economic Growth in the United States](https://github.com/bbebb/msa-research)
 
